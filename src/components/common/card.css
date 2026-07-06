@@ -1,0 +1,21 @@
+.card{
+    background:#1b1b1b;
+    border-radius:18px;
+    padding:24px;
+    transition:.25s;
+    border:1px solid #2b2b2b;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#00d4ff;
+}
+
+.card h4{
+    color:#999;
+    margin-bottom:10px;
+}
+
+.card h2{
+    font-size:32px;
+}

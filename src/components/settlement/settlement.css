@@ -1,0 +1,62 @@
+.settlement-list{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.settlement-card{
+    background:#1b1b1b;
+    border:1px solid #333;
+    border-radius:16px;
+    padding:20px;
+    transition:.25s;
+}
+
+.settlement-card:hover{
+    transform:translateY(-3px);
+    border-color:#4caf50;
+}
+
+.settlement-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.person h3{
+    margin:0;
+    color:#fff;
+}
+
+.person span{
+    color:#aaa;
+    font-size:14px;
+}
+
+.arrow{
+    font-size:28px;
+}
+
+.amount{
+    margin-top:18px;
+    font-size:26px;
+    font-weight:bold;
+    color:#4caf50;
+    text-align:center;
+}
+
+.empty-settlement{
+    background:#1b1b1b;
+    border-radius:16px;
+    border:1px solid #333;
+    padding:40px;
+    text-align:center;
+}
+
+.empty-settlement h2{
+    color:#4caf50;
+}
+
+.empty-settlement p{
+    color:#999;
+}

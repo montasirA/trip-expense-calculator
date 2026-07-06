@@ -1,0 +1,5 @@
+{
+  "appId": "com.example.app",
+  "appName": "trip-expense-calculator",
+  "webDir": "dist"
+}

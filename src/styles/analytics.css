@@ -1,0 +1,20 @@
+.analytics-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:30px;
+}
+
+.analytics-table th,
+.analytics-table td{
+    border:1px solid #333;
+    padding:14px;
+    text-align:center;
+}
+
+.analytics-table th{
+    background:#1b1b1b;
+}
+
+.analytics-table tr:nth-child(even){
+    background:#161616;
+}
