@@ -4,7 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Members from "./pages/Members";
 import Expenses from "./pages/Expenses";
 import Analytics from "./pages/Analytics";
-import Settlement from "./pages/Settlement";
+import Settlement from "./pages/Settlement.jsx";
 import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 
